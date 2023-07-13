@@ -46,7 +46,9 @@ nav{display: flex;padding-left: 2%;padding-right: 3%;justify-content: space-betw
     background-size: cover;background-repeat: no-repeat;background-position: relative}
 
 
-.about-head{display: flex;justify-content: space-between;}  
+.about-head{display: flex;justify-content: space-between;} 
+
+.about-head-one{display: flex;justify-content: space-between;margin-top: 80px;}  
 
 .about-head-two{display: flex;justify-content: space-between;margin-top: 80px;}  
 
@@ -213,7 +215,7 @@ nav{display: flex;padding-left: 2%;padding-right: 3%;justify-content: space-betw
 .head-button{padding: 10px 31px 13px 31px;border: 2px solid #74dab5;;border-color: #74dab5; border-radius: 2px;background-color: #74dab5;
     font-family: 'Nunito Sans';font-style: normal;font-weight: 700;font-size: 14px;text-align: center;text-transform: capitalize;color: #FFFFFF;text-decoration: none;}    
 
-.career-objective{padding: 20px;min-height: 100vh;max-width: 700px;margin-top: -12px;background-image: url(Images/career\ objective.png);
+.career-objective{padding: 20px;min-height: 95vh;max-width: 700px;margin-top: -12px;background-image: url(Images/career\ objective.png);
     background-size: cover;background-repeat: no-repeat;background-position: relative;}
     
     .about-head{display: flex;flex-direction: column;}  
@@ -294,7 +296,7 @@ h2{font-family: 'Abril Fatface';font-style: normal; font-weight: 400;font-size: 
 
 .image-right-two{ margin-top:30px;}   
 
-
+.about-head-one{display:column;flex-direction: column-reverse;margin-top: -120px;}
 
 .about-head-three{display:column;flex-direction: column-reverse;margin-top: -150px;}
 
