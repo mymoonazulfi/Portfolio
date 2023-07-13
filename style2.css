@@ -1,0 +1,359 @@
+*{padding: 0;margin: 0;}
+
+
+html{scroll-behavior:smooth;}
+
+
+html{animation: transitionIn 0.5s;}
+
+@keyframes transitionIn{
+    from{opacity: 0;transform:translateY(-10px);}
+    to{opacity: 1;transform:translatey(0)}
+}
+
+.main-section{margin: 10px; padding:50px;padding-bottom: 0px; min-height: 90vh;max-width: 100%;
+     background-color: #000000;background-position: absolute;}
+
+nav{display: flex;padding-left: 2%;padding-right: 3%;justify-content: space-between;align-items: center;}    
+
+.logo-name{font-family: 'mullish';color: #74dab5;;font-size: 40px;text-decoration:none;}
+
+.logo-name:hover{color: #0b724d;}
+
+.nav-links ul li{list-style:none;position: relative;}
+
+.nav-links ul li a{padding-left: 10px;padding-right: 10px;color:#74dab5;text-decoration:  none;
+                   font-family: 'mullish';font-style: normal;font-weight: 300;font-size: 20px;}  
+                   
+.nav-links ul li a:hover{color: #048153;}
+    
+.main-sect-cont{height: 300px;margin-top:130px;margin-left: 20px;text-align: left;justify-content: flex-start; }
+    
+.main-header{ font-family: 'Abril Fatface';font-style: normal;font-weight: 400;
+    font-size: 60px;line-height: 65px;color: #ff9fbf;}
+
+.main-content{ font-family: 'Mulish';font-style: normal;font-weight: 400;margin-top: 10px;
+    font-size: 26px;line-height: 160%;color: #a4a1a1;margin-bottom: 30px;letter-spacing: 3px;}    
+
+.button-outline{padding: 15px 2px 2px  2px;border: 2px solid #2A8D69;border-color: #2A8D69; border-radius: 2px;width: 160px;height: 34px;}
+   
+.head-button{padding: 10px 31px 13px 31px;border: 2px solid #74dab5;;border-color: #74dab5; border-radius: 2px;background-color: #74dab5;
+    font-family: 'Nunito Sans';font-style: normal;font-weight: 700;font-size: 16px;text-align: center;text-transform: capitalize;color: #FFFFFF;text-decoration: none;}    
+
+.head-button:hover{color:#0b724d;}
+
+.about{padding: 50px;min-height: 80vh;background-image: url(Images/about\ section.png);
+    background-size: cover;background-repeat: no-repeat;background-position: relative}
+
+
+.about-head{display: flex;justify-content: space-between;}  
+
+.about-head-two{display: flex;justify-content: space-between;margin-top: 80px;}  
+
+.about-head-three{display: flex;justify-content: space-between;margin-top: 80px;}  
+
+
+
+.skill-row{display: flex;padding-left: 20px;margin-top: 20px;color:#a8003b;}
+
+.sub-head{display: flex;margin-top: 10px;}
+
+.sub-heading{padding: 12px 30px 12px 30px;border: 2px solid #ff9fbf;;border-color: #ff9fbf;
+    background-color: #ff9fbf; font-family: 'Nunito Sans';font-style: normal;font-weight: 700;font-size: 18px;text-align: center;
+    text-transform: capitalize;color: #FFFFFF;text-decoration: none;margin: 8px;}    
+
+.about-me{text-align:center;margin-left: -100px;color: #843750;} 
+
+.my-wrk{text-align:center;margin-left: -100px;color: #843750;} 
+
+.what-about{display: flex;flex-direction: row;}   
+
+
+
+.about-cont-two{margin-top: 8px;}
+
+.content{display: flex}
+
+.career-new{width: 400px;font-family: 'Mulish';font-style: normal;font-weight: 400;
+    font-size: 25px;line-height: 180%;color: #4b4a4a;padding: 40px;}
+
+.career-new-two{width: 400px;font-family: 'Mulish';font-style: normal;font-weight: 400;
+        font-size: 25px;line-height: 180%;color: #4b4a4a;padding: 40px;margin-top: -45px;}
+
+        .career-new-three{width: 400px;font-family: 'Mulish';font-style: normal;font-weight: 400;
+            font-size: 25px;line-height: 180%;color: #4b4a4a;padding: 40px;margin-top: 45px;}
+
+.career-head{color:#0e8b5d;}
+
+.skills{height: 300px;display: row;margin-left: 140px;margin-top: 10px;}
+
+.skill{width:200px;display: flex;}
+
+.skill-row .skill ul li{color:#065e3e;}
+
+
+h2{font-family: 'Abril Fatface';font-style: normal; font-weight: 400;font-size: 56px;line-height: 76px;color: #843750;}
+
+.what-i-do{font-family: 'Abril Fatface';font-style: normal; font-weight: 400;font-size: 48px;line-height: 76px;
+    color: #b85073;margin-left: 40px;padding-top:  200px;padding-bottom:  200px; padding-right:  150px;}
+
+.skill ul li{font-family: 'Mulish';font-style: normal;font-weight: 400;font-size: 25px;line-height: 180%;color: #000000;}
+
+.career ul li{font-family: 'Mulish';font-style: normal;font-weight: 400;font-size: 25px;line-height: 180%;color: #000000;}
+
+.career{margin-top: 20px;padding-left: 20px;;}
+
+
+.about-sect .career ul li{color: #4b4a4a;}
+
+
+.career-objective{padding: 60px;min-height: 75vh;margin-top: -30px;background-image: url(Images/career\ objective.png);
+    background-size: cover;background-repeat: no-repeat;background-position: relative;}
+
+
+.my-work{padding: 60px;}
+
+
+.image-content-two{text-align: left;}
+
+
+.img-cont{width: 500px;margin-left: 10px;margin-top: 30px;font-family: 'Mulish';font-style: normal;font-weight: 400;
+    font-size: 28px;line-height: 180%;color: #4b4a4a;margin-bottom: 35px;}
+
+h4{font-family: 'Mulish';font-style: normal;font-weight: 400;font-size: 30px;line-height: 180%;color: #000000;}
+
+
+
+.button-outline-two{padding: 15px 2px 2px  2px;border: 2px solid #2A8D69;border-color: #2A8D69;
+     border-radius: 2px;width: 160px;height: 34px;margin-left: 14px;}
+
+   
+.footer{margin: 10px; padding:50px;min-height: 80vh;max-width: 100%; background-image: url(Images/Rectangle\ pink.png);
+    background-size: cover;background-repeat: no-repeat;background-position: relative;}
+
+.contact-us{display:flex;justify-content: space-evenly;}
+
+.get-in-touch{border:0; border-radius: 2px; padding: 8px; width:120px; border: 2px solid #ff9fbf;;border-color: #ff9fbf;margin: 20px;
+    background-color: #ff9fbf; font-family: 'Nunito Sans';font-style: normal;font-weight: 700;font-size: 18px;text-align: center;
+    text-transform:capitalize;color: #FFFFFF;text-decoration: none;margin: 8px;margin-left: 138px;margin-bottom: 20px;}
+
+.form-submit{border-radius:5px; background-color: white;max-width:400px; display: flex; flex-direction: column;padding: 40px 60px 40px 40px;height: 400px;}  
+
+form input, form textarea{color:#f5d3de; width:400px; height: 35px; border:0; border-radius:4px; border-color: none; margin: 10px;padding: 10px;font-size: 14px;background:ghostwhite;outline:none;}
+
+form ::placeholder{color:#f8c3d4;font-family: 'Nunito Sans';}
+
+
+.message{height: 70px;}
+
+.submit{margin-top:20px; margin-left: 161px; padding: 8px 28px 8px 28px;border: 2px solid #74dab5;;border-color: #74dab5; border-radius: 20px;background-color: #74dab5;
+    font-family: 'Nunito Sans';font-style: normal;font-weight: 700;font-size: 18px;text-align: center;text-transform: capitalize;color: #FFFFFF;text-decoration: none;}    
+
+.address{width:500px;padding: 40px;padding-top: 0px;}    
+
+.call{margin: 40px;display: flex;flex-direction: row;}
+
+.number{padding: 8px;color:#0e8b5d;;}
+
+.contac{color: #843750;margin-bottom: 50px;} 
+
+.mail-link{color:#0e8b5d;padding: 8px;}
+
+nav{animation: transitionIn 1s;}
+
+.main-header{animation: transitionIn 2s;}
+
+.main-content{animation: transitionIn 3s;}
+
+.button-outline{animation: transitionIn 4s;}
+
+.career-objective{animation: transitionIn 5s;}
+
+
+
+
+
+@keyframes transitionIn{
+    from{opacity: 0;transform: translateY(-10px);}
+    to{opacity: 1;transform: translateY(0);}
+}
+
+
+
+
+
+
+@media only screen and (max-width:700px)
+
+{
+
+    .main-section{margin: 2px; padding:30px;padding-bottom: 0px; min-height: 70vh;max-width: 700px; background-color: #000000;background-position: absolute;}
+
+    .main-header{ font-family: 'Abril Fatface';font-style: normal;font-weight: 400;
+       font-size: 45px;line-height:45px;color: #ff9fbf;}
+
+       .main-sect-cont{height: 300px;margin-top:75px;margin-left: 12px;text-align: left;justify-content: flex-start; }
+    
+     .main-content{ font-family: 'Mulish';font-style: normal;font-weight: 400;margin-top: 5px;
+           font-size: 18px;line-height: 160%;color: #a4a1a1;margin-bottom: 25px;margin-top: 15px; letter-spacing: 2px;} 
+          
+nav{display: flex;padding-left: 2%;padding-right: 3%;justify-content: space-between;align-items: center;}    
+
+.logo-name{font-family: 'mullish';color: #74dab5;;font-size: 30px;text-decoration:none;margin-top: 8px;}
+
+
+.nav-links ul li{list-style:none;position: relative;margin-top: 15px;}
+
+.nav-links ul li a{padding-left: 7px;padding-right: 7px;  color:#74dab5;text-decoration:  none;
+                   font-family: 'mullish';font-style: normal;font-weight: 300;font-size: 18px;}  
+                   
+
+.button-outline{margin-top: 0px; padding: 15px 3px 3px  4px;border: 2px solid #2A8D69;border-color: #2A8D69; border-radius: 2px;width: 150px;height: 34px;}
+
+.head-button{padding: 10px 31px 13px 31px;border: 2px solid #74dab5;;border-color: #74dab5; border-radius: 2px;background-color: #74dab5;
+    font-family: 'Nunito Sans';font-style: normal;font-weight: 700;font-size: 14px;text-align: center;text-transform: capitalize;color: #FFFFFF;text-decoration: none;}    
+
+.career-objective{padding: 20px;min-height: 70vh;max-width: 700px;margin-top: -12px;background-image: url(Images/career\ objective.png);
+    background-size: cover;background-repeat: no-repeat;background-position: relative;}
+    
+    .about-head{display: flex;flex-direction: column;}  
+
+   
+    
+
+.skills{height:200px;display: row;margin-left: 10px;margin-top:-115px;}
+
+.skill{width:200px;display: flex;}
+
+.skill-row .skill ul li{color:#065e3e;}
+
+.skill-row{margin-top: -3px;}
+
+h2{font-family: 'Abril Fatface';font-style: normal; font-weight: 400;font-size: 35px;line-height: 70px;color: #843750;}
+
+.skill ul li{font-family: 'Mulish';font-style: normal;font-weight: 400;font-size: 16px;line-height: 150%;color: #000000;}
+
+.career ul li{font-family: 'Mulish';font-style: normal;font-weight: 400;font-size: 16px;line-height: 180%;color: #000000;}
+
+.career{margin-top: 20px;padding-left: 20px;}
+
+.about-sect .career ul li{color: #4b4a4a;}
+
+.skill-heading{margin-top: 120px;margin-left: -13px;font-size: 30px;}
+
+.career ul{margin-top: -20px;}
+
+.about-me{text-align:center;margin-left: -10px;color: #843750;margin-top: -15px;font-size:35px; } 
+
+.my-wrk{text-align:center;margin-left: -10px;color: #843750;margin-top: -20px;font-size:35px; } 
+
+.about{padding: 30px;min-height: 50vh;background-image: url(Images/about\ section.png);
+    background-size: cover;background-repeat: no-repeat;background-position: relative}
+
+
+
+.what-about{display:block; flex-direction: column;margin-left: -45px;margin-top: -60px;}   
+
+.what-i-do{font-family: 'Abril Fatface';font-style: normal; font-weight: 400;font-size: 30px;
+    color: #b85073;height: 200px;margin-top:-200px;}
+
+.career-new{width: 400px;font-family: 'Mulish';font-style: normal;font-weight: 400;
+        font-size: 16px;line-height: 180%;color: #4b4a4a;padding-top: 20px;padding-bottom: 5px;margin-top: -15px;}
+    
+.career-new-two{width: 400px;font-family: 'Mulish';font-style: normal;font-weight: 400;
+            font-size: 16px;line-height: 180%;color: #4b4a4a;padding-top: 20px;padding-bottom: 5px;margin-top: -15px;}
+
+            .career-new-three{width: 400px;font-family: 'Mulish';font-style: normal;font-weight: 400;
+                font-size: 16px;line-height: 180%;color: #4b4a4a;padding-top: 20px;padding-bottom: 5px;margin-top: -15px;}
+            
+ h4{font-family: 'Mulish';font-style: normal;font-weight: 400;font-size: 22px;line-height: 180%;color: #000000;}
+
+.career-head{color:#0e8b5d;}
+
+.about-cont{margin-top: -350px;}
+    
+.my-work{padding:30px;min-height: 50vh;}
+
+
+.about-head-two{display:flexbox;flex-direction: column;margin-top: -130px;}  
+
+.sub-head{display: flex;margin-top: 0px;margin-left: -18px;}
+
+.sub-heading{padding: 8px 8px 8px 8px;border: 2px solid #ff9fbf;;border-color: #ff9fbf;
+    background-color: #ff9fbf; font-family: 'Nunito Sans';font-style: normal;font-weight: 700;font-size: 16px;text-align: center;
+    text-transform: capitalize;color: #FFFFFF;text-decoration: none;margin: 8px;}    
+
+.img-cont{width: 350px;margin-left: -13px;margin-top: 15px;font-family: 'Mulish';font-style: normal;font-weight: 400;
+        font-size: 18px;line-height: 180%;color: #4b4a4a;margin-bottom: 20px;}
+    
+.button-outline-two{margin-top: -5px; padding: 15px 3px 3px  4px;border: 2px solid #2A8D69;border-color: #2A8D69;
+             border-radius: 2px;width: 150px;height: 34px;margin-left: -15px;}
+        
+.image-right{ margin-top:30px;}   
+
+
+.image-right-two{ margin-top:30px;}   
+
+
+
+.about-head-three{display:column;flex-direction: column-reverse;margin-top: -150px;}
+
+             .footer{margin: 5px; padding:25px;min-height: 20vh;max-width: 100%; background-image: url(Images/Rectangle\ pink.png);
+                background-size: cover;background-repeat: no-repeat;background-position: relative;}
+            
+            .contact-us{display:block;flex-direction: column;}
+            
+            .get-in-touch{border:0; border-radius: 2px; padding: 6px; width:100px; border: 2px solid #ff9fbf;;border-color: #ff9fbf;margin-top:0px; margin: 20px;
+                background-color: #ff9fbf; font-family: 'Nunito Sans';font-style: normal;font-weight: 700;font-size: 14px;text-align: center;
+                text-transform:capitalize;color: #FFFFFF;text-decoration: none;margin: 8px;margin-left: 130px;margin-bottom: 15px;}
+            
+            .form-submit{border-radius:5px; background-color: white;max-width:400px; display: flex; 
+                flex-direction: column;padding: 20px 30px 20px 20px;height: 335px;margin-top: -25px;}  
+            
+            form input, form textarea{color:#f5d3de; width:345px; height: 25px; border:0; border-radius:4px; border-color: none; margin: 5px;padding: 10px;font-size: 10px;background:ghostwhite;outline:none;}
+            
+            form ::placeholder{color:#f8c3d4;font-family: 'Nunito Sans';font-size: 10px;}
+            
+            
+            .message{height: 50px;}
+            
+            .submit{margin-top:15px; margin-left: 150px; padding: 5px 24px 5px 24px;border: 2px solid #74dab5;;border-color: #74dab5; border-radius: 20px;background-color: #74dab5;
+                font-family: 'Nunito Sans';font-style: normal;font-weight: 700;font-size: 15px;text-align: center;text-transform: capitalize;color: #FFFFFF;text-decoration: none;}    
+            
+            .address{width:400px;padding: 20px;padding-top: 15px;margin-left: -40px;}    
+            
+            .call{margin: 20px;display: flex;flex-direction: row;}
+            
+            .number{padding: 4px;color:#0e8b5d;;}
+            
+            .contac{color: #843750;margin-bottom: 30px;} 
+            
+            .mail-link{color:#0e8b5d;padding: 4px;}
+
+
+            .Figma-bootstrap{width:100%; height:auto;}
+
+            .Figma-webflow{width:100%; height:auto;}
+            
+            
+            
+    
+    
+    
+    
+    
+    
+    }
+       
+          
+
+
+    
+ 
+
+
+
+
+
+
+
